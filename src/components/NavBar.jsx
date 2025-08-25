@@ -32,7 +32,7 @@ const NavBar = () => {
 
   return (
     <div className="w-screen h-16 flex items-center px-4">
-      <div className='w-1/2 lg:w-1/3'>
+      <div className='w-1/2 lg:w-1/3 lg:pl-14'>
         <img src={logo} alt="Logo" className="h-8" />
       </div>
       <div className='hidden lg:flex lg:w-1/3 h-full justify-center items-center'>
